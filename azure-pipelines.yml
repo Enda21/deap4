@@ -1,0 +1,69 @@
+schedules:
+  - cron: "0 21 * * *" # Run the pipeline daily at 9:00 PM
+    displayName: Daily 9 PM Build
+    branches:
+      include:
+        - testsFixes-enda
+
+trigger:
+  - testsFixes-enda
+
+pool:
+  vmImage: ubuntu-latest
+
+stages:
+  - stage: RunJobs
+    jobs:
+      - job: test
+        timeoutInMinutes: "360"
+        cancelTimeoutInMinutes: "60"
+        steps:
+          - script: |
+              google-chrome --version
+            displayName: "Version of Chrome"
+            condition: always()
+
+          - script: |
+              # Make Chromedriver executable
+              chmod +x $(Agent.BuildDirectory)/s/src/test/resources/Drivers/chromedriver
+            displayName: "Make Chromedriver Executable"
+            condition: succeededOrFailed()
+
+          - script: |
+              mvn test clean install -Dtest=TestRunner1
+            displayName: "Run TestRunner1"
+
+          - script: |
+              mvn test clean install -Dtest=TestRunner2
+            displayName: "Run TestRunner2"
+
+          - script: |
+              mvn test clean install -Dtest=TestRunner3
+            displayName: "Run TestRunner3"
+
+          - task: PublishTestResults@2
+            condition: succeededOrFailed()
+            displayName: "Publish Test Results"
+            inputs:
+              testResultsFormat: "JUnit"
+              testResultsFiles: "**/surefire-reports/TEST-*.xml"
+              searchFolder: "$(System.DefaultWorkingDirectory)"
+              mergeTestResults: false
+              failTaskOnFailedTests: true
+              publishRunAttachments: true
+
+          - task: CopyFiles@2
+            condition: failed()
+            displayName: "Copy Screenshots to Artifacts"
+            inputs:
+              SourceFolder: "$(System.DefaultWorkingDirectory)/target/screenshots"
+              Contents: "**/*.png"
+              TargetFolder: "$(Build.ArtifactStagingDirectory)/Screenshots"
+
+          - task: PublishBuildArtifacts@1
+            condition: failed()
+            displayName: "Publish Artifacts"
+            inputs:
+              PathtoPublish: "$(Build.ArtifactStagingDirectory)/Screenshots"
+              ArtifactName: "Screenshots"
+              publishLocation: "Container"
