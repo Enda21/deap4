@@ -1,4 +1,4 @@
-package RunSurveys;
+package StepDefinitions;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -40,7 +40,7 @@ public class TestRunner1 {
         }
 
         private static void runTests(String jsonFile) {
-                String jsonFilePath = "C:\\Users\\BrodyE\\SEAI\\QA Automation\\DataFile\\" + File.separator + jsonFile;
+                String jsonFilePath = "C:\\Users\\BrodyE\\SEAI\\QA Automation\\DataFile\\" + jsonFile;
 
                 // Check if the file exists
                 if (!Files.exists(Paths.get(jsonFilePath))) {
