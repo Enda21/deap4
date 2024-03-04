@@ -1,6 +1,5 @@
 package RunSurveys;
 
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import utils.SuiteConstants;
@@ -16,17 +15,25 @@ import org.junit.runner.notification.Failure;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {
-                "src/test/resources/Features/01_startSurveyJson_Building.feature",
-                "src/test/resources/Features/02_startSurveyJson_Ventilation.feature"
-		}, glue = "StepDefinitions", plugin = {
+				"src/test/resources/Features/01_startSurveyJson.feature",
+                "src/test/resources/Features/02_startSurveyJson_Building.feature",
+                "src/test/resources/Features/03_startSurveyJson_SpaceHeating.feature",
+                "src/test/resources/Features/03_startSurveyJson_SpaceHeating.feature",
+                "src/test/resources/Features/04_startSurveyJson_Ventilation.feature",
+                "src/test/resources/Features/05_startSurveyJson_Lighting.feature",
+                "src/test/resources/Features/07_startSurveyJson_WaterHeating.feature",
+                "src/test/resources/Features/08_startSurveyJson_Results.feature"
+                
+				}, glue = "StepDefinitions", plugin = {
                                 "pretty",
                                 "json:target/cucumber-reports/reports.json",
                                 "html:target/cucumber-reports/reports2.html" })
 public class TestRunner1 {
 
         public static void main(String[] args) {
-//                String[] jsonFiles = { "10309532437.json", "10001722562.json", "10000199106.json" };
-        	  String[] jsonFiles = { "10309532437.json" };
+                // String[] jsonFiles = { "10309532437.json", "10001722562.json",
+                // "10000199106.json" };
+                String[] jsonFiles = { "10309532437.json" };
                 for (String jsonFile : jsonFiles) {
                         runTests(jsonFile);
                 }
