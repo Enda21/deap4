@@ -31,12 +31,13 @@ import org.junit.runner.notification.Failure;
 public class TestRunner1 {
 
         public static void main(String[] args) {
-                // String[] jsonFiles = { "10309532437.json", "10001722562.json",
-                // "10000199106.json" };
-                String[] jsonFiles = { "10309532437.json" };
-                for (String jsonFile : jsonFiles) {
-                        runTests(jsonFile);
-                }
+               String fixedPath = "C:\\Users\\BrodyE\\SEAI\\QA Automation\\DataFile\\";
+		String[] jsonFiles = { "10309532437.json" };
+		for (String jsonFile : jsonFiles) {
+    			String filePath = fixedPath + jsonFile;
+    			runTests(filePath);
+		}
+
         }
 
         private static void runTests(String jsonFile) {
