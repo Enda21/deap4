@@ -1,0 +1,3158 @@
+{
+    "Survey": {
+        "SurveyId": 654195,
+        "SurveyGuid": "af5d7ec4-5e1d-4529-b9af-9275405b03ff",
+        "AuditNumber": null,
+        "DwellingDataId": 2047288.0,
+        "IsArGenerated": true,
+        "SurveyDate": "2023-06-07T00:00:00",
+        "ProcessingDate": "2023-07-24T12:07:59.997",
+        "PublishingDate": "2023-07-24T12:08:44.643",
+        "ValidUntilDate": "2033-07-24T12:08:44.643",
+        "SurveyOwner": "Colm Holmes",
+        "IsUserLinked": false,
+        "IsSelfAssessor": false,
+        "SurveyStatusId": 3,
+        "SurveyStatus": "Published",
+        "SurveyRooms": [],
+        "RatingType": {
+            "RatingTypeID": 3,
+            "Name": "Existing Dwelling"
+        },
+        "RatingPurpose": {
+            "RatingPurposeID": 5,
+            "Name": "Grant Support"
+        },
+        "BuildingReg": {
+            "BuildingRegsID": 0,
+            "Description": "None"
+        },
+        "PlanningReference": null,
+        "DateOfPlans": null,
+        "Comments": null,
+        "Description": "Survey_10001722562_TEST2",
+        "ClientReviewPeriod": 0,
+        "IsCurrentAssessor": false,
+        "IsCurrentClient": false,
+        "IsCurrentAuditor": false,
+        "IsCurrentHelpdesk": false,
+        "TSClientShare": null,
+        "ReviewStatus": null,
+        "ClientName": null,
+        "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+        "AssessorNumber": "100092",
+        "AssessorName": null,
+        "NASUploadAttempt": true,
+        "SurveyEvidenceChecklistComplete": true,
+        "LiveFuelFactors": false,
+        "ElectricityFactorsSimulateDate": null,
+        "ElectricityFactorsSimulateId": null,
+        "SurveyClientID": 0,
+        "ClientGuid": null,
+        "ClientEmail": "",
+        "Deap3Import": false,
+        "IsElectricityFactorOutdated": false
+    },
+    "SurveyData": {
+        "Dwelling": {
+            "DwellingID": 495364,
+            "Address": " 13 ROSTREVOR TERRACE, RATHGAR, Dublin 6, D06X3V5",
+            "AddressShort": "RATHGARRATHGAR",
+            "Address1": " 13 ROSTREVOR TERRACE",
+            "Address2": "RATHGAR",
+            "Address3": null,
+            "Address4": null,
+            "Address5": null,
+            "City": "DUBLIN 6",
+            "CountyID": 12,
+            "County": "Dublin 6",
+            "Eircode": "D06X3V5",
+            "MPRN": 10001722562,
+            "BERCurrent": 116002676.0,
+            "DwellingTypeID": 8,
+            "DwellingDescription": "Semi-detached house",
+            "SurveyCompleteDoorCheck": true,
+            "SurveyCompleteRoofCheck": true,
+            "Year": 1850,
+            "Extended": true,
+            "ImageFileGuidID": null,
+            "GuidID": "b0809c96-c4dd-42bf-8826-5ec76b69291d",
+            "SharedMPRN": null,
+            "SharedBERNumber": null,
+            "CreatedByCurrentUser": false,
+            "MPRNVerified": true
+        },
+        "SurveyRooms": [],
+        "SurveyItems": [
+            {
+                "RoomItemID": 8594151,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786266,
+                "LibraryItem": {
+                    "LibraryItemID": 5786266,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Solid exposed door",
+                    "Description": null,
+                    "LibraryItemTypeID": 2,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": null,
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": null,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786266,
+                        "Keywords": null,
+                        "ItemProperties": "1.85 m² : 3 W/m²K : 100 %"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Doors",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 2,
+                        "LibraryItemTypeDescription": "Door"
+                    },
+                    "GuidID": "1b891274-a702-4ae5-a819-23bb36243c66",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": {
+                        "DoorAreaWidth": null,
+                        "DoorAreaHeight": null,
+                        "DoorAreaDepth": null,
+                        "DoorArea": 4.270,
+                        "DraughtStripped": true,
+                        "UValue": 3.0
+                    },
+                    "LibraryItemWindow": null,
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": "Main Front Door",
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594154,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786269,
+                "LibraryItem": {
+                    "LibraryItemID": 5786269,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Solid exposed door",
+                    "Description": null,
+                    "LibraryItemTypeID": 2,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": null,
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": null,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786269,
+                        "Keywords": null,
+                        "ItemProperties": "1.85 m² : 3 W/m²K : 100 %"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Doors",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 2,
+                        "LibraryItemTypeDescription": "Door"
+                    },
+                    "GuidID": "5eea5c1d-207b-453c-9d4b-2e503c7daeb8",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": {
+                        "DoorAreaWidth": null,
+                        "DoorAreaHeight": null,
+                        "DoorAreaDepth": null,
+                        "DoorArea": 4.600,
+                        "DraughtStripped": true,
+                        "UValue": 3.0
+                    },
+                    "LibraryItemWindow": null,
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": "Side Door (Boot Room)",
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594210,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786482,
+                "LibraryItem": {
+                    "LibraryItemID": 5786482,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Single - Wood/PVC",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": null,
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": null,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786482,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 4.800 W/m²K : Single-glazed : 100 % : Wood/PVC : Any : 0.700 : 0.850"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "7fbdf9a0-ae5f-4efb-b72c-7b60f1255a1e",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786482,
+                        "GlazingTypeID": 1,
+                        "FrameFactorID": 1,
+                        "GapID": 4,
+                        "OvershadingID": 3,
+                        "OrientationID": 1,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 4.800,
+                        "SolarEnergyTransmittance": 0.850,
+                        "DraughtStripped": null,
+                        "Area": 1.800,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 1,
+                        "DraughtStrippedOpenings": 1,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 4,
+                            "GapDesc": "N/A"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 1,
+                            "GlazingTypeDesc": "Single-glazed",
+                            "GlazingLayers": 1,
+                            "SolarEnergyTransmittance": 0.85,
+                            "LightTransmittance": 0.90
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 3,
+                            "OvershadingDesc": "More Than Average"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 1,
+                            "OrientationDesc": "North",
+                            "AvailableForRoof": true
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594645,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786484,
+                "LibraryItem": {
+                    "LibraryItemID": 5786484,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Single - Wood/PVC",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:46:42.477",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786484,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 4.800 W/m²K : Single-glazed : 100 % : Wood/PVC : Any : 0.700 : 0.850"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "e322aaa0-9b51-4e24-9663-dd1a7e8aad2e",
+                    "OriginalLibraryItemId": 5786482,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786484,
+                        "GlazingTypeID": 1,
+                        "FrameFactorID": 1,
+                        "GapID": 4,
+                        "OvershadingID": 2,
+                        "OrientationID": 3,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 4.800,
+                        "SolarEnergyTransmittance": 0.850,
+                        "DraughtStripped": null,
+                        "Area": 20.450,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 8,
+                        "DraughtStrippedOpenings": 8,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 4,
+                            "GapDesc": "N/A"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 1,
+                            "GlazingTypeDesc": "Single-glazed",
+                            "GlazingLayers": 1,
+                            "SolarEnergyTransmittance": 0.85,
+                            "LightTransmittance": 0.90
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 2,
+                            "OvershadingDesc": "Average or Unknown"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 3,
+                            "OrientationDesc": "East",
+                            "AvailableForRoof": false
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594670,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786499,
+                "LibraryItem": {
+                    "LibraryItemID": 5786499,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Single - Wood/PVC",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:47:36.767",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786499,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 4.800 W/m²K : Single-glazed : 100 % : Wood/PVC : Any : 0.700 : 0.850"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "c378bcea-612d-4660-88b8-6a09b6b73702",
+                    "OriginalLibraryItemId": 5786484,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786499,
+                        "GlazingTypeID": 1,
+                        "FrameFactorID": 1,
+                        "GapID": 4,
+                        "OvershadingID": 2,
+                        "OrientationID": 5,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 4.800,
+                        "SolarEnergyTransmittance": 0.850,
+                        "DraughtStripped": null,
+                        "Area": 0.560,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 1,
+                        "DraughtStrippedOpenings": 1,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 4,
+                            "GapDesc": "N/A"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 1,
+                            "GlazingTypeDesc": "Single-glazed",
+                            "GlazingLayers": 1,
+                            "SolarEnergyTransmittance": 0.85,
+                            "LightTransmittance": 0.90
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 2,
+                            "OvershadingDesc": "Average or Unknown"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 5,
+                            "OrientationDesc": "South",
+                            "AvailableForRoof": false
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594683,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786509,
+                "LibraryItem": {
+                    "LibraryItemID": 5786509,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Single - Wood/PVC",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:48:13.327",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786509,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 4.800 W/m²K : Single-glazed : 100 % : Wood/PVC : Any : 0.700 : 0.850"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "e857ab07-d81b-430e-bf97-66e646ce3e4a",
+                    "OriginalLibraryItemId": 5786484,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786509,
+                        "GlazingTypeID": 1,
+                        "FrameFactorID": 1,
+                        "GapID": 4,
+                        "OvershadingID": 2,
+                        "OrientationID": 7,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 4.800,
+                        "SolarEnergyTransmittance": 0.850,
+                        "DraughtStripped": null,
+                        "Area": 19.740,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 10,
+                        "DraughtStrippedOpenings": 10,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 4,
+                            "GapDesc": "N/A"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 1,
+                            "GlazingTypeDesc": "Single-glazed",
+                            "GlazingLayers": 1,
+                            "SolarEnergyTransmittance": 0.85,
+                            "LightTransmittance": 0.90
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 2,
+                            "OvershadingDesc": "Average or Unknown"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 7,
+                            "OrientationDesc": "West",
+                            "AvailableForRoof": false
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594695,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786515,
+                "LibraryItem": {
+                    "LibraryItemID": 5786515,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Single - Wood/PVC",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:48:48.27",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786515,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 4.800 W/m²K : Single-glazed : 100 % : Wood/PVC : Any : 0.700 : 0.850"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "9620d7ae-aeec-43b5-81c0-ffae63235da1",
+                    "OriginalLibraryItemId": 5786509,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786515,
+                        "GlazingTypeID": 1,
+                        "FrameFactorID": 1,
+                        "GapID": 4,
+                        "OvershadingID": 2,
+                        "OrientationID": 6,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 4.800,
+                        "SolarEnergyTransmittance": 0.850,
+                        "DraughtStripped": null,
+                        "Area": 1.690,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 2,
+                        "DraughtStrippedOpenings": 2,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 4,
+                            "GapDesc": "N/A"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 1,
+                            "GlazingTypeDesc": "Single-glazed",
+                            "GlazingLayers": 1,
+                            "SolarEnergyTransmittance": 0.85,
+                            "LightTransmittance": 0.90
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 2,
+                            "OvershadingDesc": "Average or Unknown"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 6,
+                            "OrientationDesc": "Southwest",
+                            "AvailableForRoof": false
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594701,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786521,
+                "LibraryItem": {
+                    "LibraryItemID": 5786521,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Single - Wood/PVC",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:49:12.96",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786521,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 4.800 W/m²K : Single-glazed : 100 % : Wood/PVC : Any : 0.700 : 0.850"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "08d571fb-dd32-4d68-80e5-17b405f3b491",
+                    "OriginalLibraryItemId": 5786515,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786521,
+                        "GlazingTypeID": 1,
+                        "FrameFactorID": 1,
+                        "GapID": 4,
+                        "OvershadingID": 2,
+                        "OrientationID": 8,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 4.800,
+                        "SolarEnergyTransmittance": 0.850,
+                        "DraughtStripped": null,
+                        "Area": 1.690,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 2,
+                        "DraughtStrippedOpenings": 2,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 4,
+                            "GapDesc": "N/A"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 1,
+                            "GlazingTypeDesc": "Single-glazed",
+                            "GlazingLayers": 1,
+                            "SolarEnergyTransmittance": 0.85,
+                            "LightTransmittance": 0.90
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 2,
+                            "OvershadingDesc": "Average or Unknown"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 8,
+                            "OrientationDesc": "Northwest",
+                            "AvailableForRoof": false
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594844,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786579,
+                "LibraryItem": {
+                    "LibraryItemID": 5786579,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Triple - Argon - Low-E (0.15, hard) - Wood/PVC - >=16mm Gap",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": null,
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": null,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786579,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 1.400 W/m²K : Triple-glazed, argon filled (low-E, en = 0.15, hard coat) : 100 % : Wood/PVC : Any : 0.700 : 0.640"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "fb67555c-5c42-4069-bec8-16fd3401e1b3",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786579,
+                        "GlazingTypeID": 19,
+                        "FrameFactorID": 1,
+                        "GapID": 3,
+                        "OvershadingID": 3,
+                        "OrientationID": 1,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 1.400,
+                        "SolarEnergyTransmittance": 0.640,
+                        "DraughtStripped": null,
+                        "Area": 2.130,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 1,
+                        "DraughtStrippedOpenings": 1,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 3,
+                            "GapDesc": ">=16mm"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 19,
+                            "GlazingTypeDesc": "Triple-glazed, argon filled (low-E, en = 0.15, hard coat)",
+                            "GlazingLayers": 3,
+                            "SolarEnergyTransmittance": 0.64,
+                            "LightTransmittance": 0.70
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 3,
+                            "OvershadingDesc": "More Than Average"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 1,
+                            "OrientationDesc": "North",
+                            "AvailableForRoof": true
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594876,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786580,
+                "LibraryItem": {
+                    "LibraryItemID": 5786580,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Triple - Argon - Low-E (0.15, hard) - Wood/PVC - >=16mm Gap",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:53:11.863",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786580,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 1.400 W/m²K : Triple-glazed, argon filled (low-E, en = 0.15, hard coat) : 100 % : Wood/PVC : Any : 0.700 : 0.640"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "3639fa86-c56d-4b7b-b373-755dc731c599",
+                    "OriginalLibraryItemId": 5786579,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786580,
+                        "GlazingTypeID": 19,
+                        "FrameFactorID": 1,
+                        "GapID": 3,
+                        "OvershadingID": 3,
+                        "OrientationID": 5,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 1.400,
+                        "SolarEnergyTransmittance": 0.640,
+                        "DraughtStripped": null,
+                        "Area": 2.120,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 1,
+                        "DraughtStrippedOpenings": 1,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 3,
+                            "GapDesc": ">=16mm"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 19,
+                            "GlazingTypeDesc": "Triple-glazed, argon filled (low-E, en = 0.15, hard coat)",
+                            "GlazingLayers": 3,
+                            "SolarEnergyTransmittance": 0.64,
+                            "LightTransmittance": 0.70
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 3,
+                            "OvershadingDesc": "More Than Average"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 5,
+                            "OrientationDesc": "South",
+                            "AvailableForRoof": false
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594905,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786584,
+                "LibraryItem": {
+                    "LibraryItemID": 5786584,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Triple - Argon - Low-E (0.15, hard) - Wood/PVC - >=16mm Gap",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:53:40.96",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786584,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 1.400 W/m²K : Triple-glazed, argon filled (low-E, en = 0.15, hard coat) : 100 % : Wood/PVC : Any : 0.700 : 0.640"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "4df015ed-92a2-4ee6-ba97-f15821414fb4",
+                    "OriginalLibraryItemId": 5786580,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786584,
+                        "GlazingTypeID": 19,
+                        "FrameFactorID": 1,
+                        "GapID": 3,
+                        "OvershadingID": 3,
+                        "OrientationID": 7,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 1.400,
+                        "SolarEnergyTransmittance": 0.640,
+                        "DraughtStripped": null,
+                        "Area": 4.440,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 2,
+                        "DraughtStrippedOpenings": 2,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 3,
+                            "GapDesc": ">=16mm"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 19,
+                            "GlazingTypeDesc": "Triple-glazed, argon filled (low-E, en = 0.15, hard coat)",
+                            "GlazingLayers": 3,
+                            "SolarEnergyTransmittance": 0.64,
+                            "LightTransmittance": 0.70
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 3,
+                            "OvershadingDesc": "More Than Average"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 7,
+                            "OrientationDesc": "West",
+                            "AvailableForRoof": false
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8594941,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786611,
+                "LibraryItem": {
+                    "LibraryItemID": 5786611,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Double - Argon - Low-E (0.15, hard) - Wood/PVC - 12mm Gap",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": null,
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": null,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786611,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 2.000 W/m²K : Double-glazed, argon filled (low-E, en = 0.15, hard coat) : 100 % : Wood/PVC : Any : 0.700 : 0.720"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "74e87c49-3644-473c-bd26-c7b28f33e451",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786611,
+                        "GlazingTypeID": 9,
+                        "FrameFactorID": 1,
+                        "GapID": 2,
+                        "OvershadingID": 2,
+                        "OrientationID": 1,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 2.000,
+                        "SolarEnergyTransmittance": 0.720,
+                        "DraughtStripped": null,
+                        "Area": 2.470,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 1,
+                        "DraughtStrippedOpenings": 1,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 2,
+                            "GapDesc": "12mm"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 9,
+                            "GlazingTypeDesc": "Double-glazed, argon filled (low-E, en = 0.15, hard coat)",
+                            "GlazingLayers": 2,
+                            "SolarEnergyTransmittance": 0.72,
+                            "LightTransmittance": 0.80
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 2,
+                            "OvershadingDesc": "Average or Unknown"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 1,
+                            "OrientationDesc": "North",
+                            "AvailableForRoof": true
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8595000,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786612,
+                "LibraryItem": {
+                    "LibraryItemID": 5786612,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Double - Argon - Low-E (0.15, hard) - Wood/PVC - 12mm Gap",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:56:53.253",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786612,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 2.000 W/m²K : Double-glazed, argon filled (low-E, en = 0.15, hard coat) : 100 % : Wood/PVC : Any : 0.700 : 0.720"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "9d24a049-7b13-4d0d-9936-4d3d544c9d89",
+                    "OriginalLibraryItemId": 5786611,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786612,
+                        "GlazingTypeID": 9,
+                        "FrameFactorID": 1,
+                        "GapID": 2,
+                        "OvershadingID": 2,
+                        "OrientationID": 5,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 2.000,
+                        "SolarEnergyTransmittance": 0.720,
+                        "DraughtStripped": null,
+                        "Area": 22.240,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 3,
+                        "DraughtStrippedOpenings": 3,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": null,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 2,
+                            "GapDesc": "12mm"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 9,
+                            "GlazingTypeDesc": "Double-glazed, argon filled (low-E, en = 0.15, hard coat)",
+                            "GlazingLayers": 2,
+                            "SolarEnergyTransmittance": 0.72,
+                            "LightTransmittance": 0.80
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 2,
+                            "OvershadingDesc": "Average or Unknown"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 5,
+                            "OrientationDesc": "South",
+                            "AvailableForRoof": false
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8595031,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786616,
+                "LibraryItem": {
+                    "LibraryItemID": 5786616,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Double - Argon - Low-E (0.15, hard) - Wood/PVC - 12mm Gap",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:57:24.637",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786616,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 2.000 W/m²K : Double-glazed, argon filled (low-E, en = 0.15, hard coat) : 100 % : Wood/PVC : Any : 0.700 : 0.720"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "9ac83fb3-c1d2-4833-936b-975b3345cc26",
+                    "OriginalLibraryItemId": 5786612,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786616,
+                        "GlazingTypeID": 9,
+                        "FrameFactorID": 1,
+                        "GapID": 2,
+                        "OvershadingID": 2,
+                        "OrientationID": 7,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 2.000,
+                        "SolarEnergyTransmittance": 0.720,
+                        "DraughtStripped": null,
+                        "Area": 15.230,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 3,
+                        "DraughtStrippedOpenings": 3,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": false,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 2,
+                            "GapDesc": "12mm"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 9,
+                            "GlazingTypeDesc": "Double-glazed, argon filled (low-E, en = 0.15, hard coat)",
+                            "GlazingLayers": 2,
+                            "SolarEnergyTransmittance": 0.72,
+                            "LightTransmittance": 0.80
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 2,
+                            "OvershadingDesc": "Average or Unknown"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 7,
+                            "OrientationDesc": "West",
+                            "AvailableForRoof": false
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": "",
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8595080,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786630,
+                "LibraryItem": {
+                    "LibraryItemID": 5786630,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Double - Argon - Low-E (0.15, hard) - Wood/PVC - 12mm Gap",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T15:58:59.183",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786630,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 2.000 W/m²K : Double-glazed, argon filled (low-E, en = 0.15, hard coat) : 100 % : Wood/PVC : Any : 0.700 : 0.720"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "7d195e9c-e8d0-4bfb-b9bf-e880cc408dee",
+                    "OriginalLibraryItemId": 5786612,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786630,
+                        "GlazingTypeID": 9,
+                        "FrameFactorID": 1,
+                        "GapID": 2,
+                        "OvershadingID": 3,
+                        "OrientationID": 1,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 2.000,
+                        "SolarEnergyTransmittance": 0.720,
+                        "DraughtStripped": null,
+                        "Area": 2.140,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 2,
+                        "DraughtStrippedOpenings": 2,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": true,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 2,
+                            "GapDesc": "12mm"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 9,
+                            "GlazingTypeDesc": "Double-glazed, argon filled (low-E, en = 0.15, hard coat)",
+                            "GlazingLayers": 2,
+                            "SolarEnergyTransmittance": 0.72,
+                            "LightTransmittance": 0.80
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 3,
+                            "OvershadingDesc": "More Than Average"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 1,
+                            "OrientationDesc": "North",
+                            "AvailableForRoof": true
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": "Roof Light",
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8595127,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 5786641,
+                "LibraryItem": {
+                    "LibraryItemID": 5786641,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Double - Argon - Low-E (0.15, hard) - Wood/PVC - 12mm Gap",
+                    "Description": null,
+                    "LibraryItemTypeID": 1,
+                    "LibraryItemSourceID": 2,
+                    "CreatedByCurrentAssessor": true,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2023-06-07T16:00:15.277",
+                    "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                    "IsCommon": false,
+                    "IsDefault": null,
+                    "IsHidden": true,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 5786641,
+                        "Keywords": null,
+                        "ItemProperties": " :  m² : 2.000 W/m²K : Double-glazed, argon filled (low-E, en = 0.15, hard coat) : 100 % : Wood/PVC : Any : 0.700 : 0.720"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 2,
+                        "LibraryItemSource1": "Assessor"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Windows",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 1,
+                        "LibraryItemTypeDescription": "Window"
+                    },
+                    "GuidID": "5144d94f-2a8c-4b63-9035-6adc76b31c07",
+                    "OriginalLibraryItemId": 5786630,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": {
+                        "LibraryItemID": 5786641,
+                        "GlazingTypeID": 9,
+                        "FrameFactorID": 1,
+                        "GapID": 2,
+                        "OvershadingID": 2,
+                        "OrientationID": 9,
+                        "BlindID": 1,
+                        "OverhangID": 1,
+                        "OverhangDepthID": null,
+                        "UValue": 2.000,
+                        "SolarEnergyTransmittance": 0.720,
+                        "DraughtStripped": null,
+                        "Area": 1.090,
+                        "FrameFactorValue": 0.700,
+                        "Openings": 1,
+                        "DraughtStrippedOpenings": 1,
+                        "DraughtStrippedOpeningsPerc": 100.0,
+                        "RoofWindow": true,
+                        "FrameFactor": {
+                            "FrameFactorID": 1,
+                            "FrameTypeDesc": "Wood/PVC",
+                            "FrameFactor1": 0.70
+                        },
+                        "GapType": {
+                            "GapID": 2,
+                            "GapDesc": "12mm"
+                        },
+                        "GlazingType": {
+                            "GlazingTypeID": 9,
+                            "GlazingTypeDesc": "Double-glazed, argon filled (low-E, en = 0.15, hard coat)",
+                            "GlazingLayers": 2,
+                            "SolarEnergyTransmittance": 0.72,
+                            "LightTransmittance": 0.80
+                        },
+                        "WindowOvershading": {
+                            "OvershadingID": 2,
+                            "OvershadingDesc": "Average or Unknown"
+                        },
+                        "OverhangType": {
+                            "OverhangID": 1,
+                            "OverhangDesc": "NA"
+                        },
+                        "OverhangDepthRatio": null,
+                        "WindowOrientation": {
+                            "OrientationID": 9,
+                            "OrientationDesc": "Horizontal",
+                            "AvailableForRoof": true
+                        },
+                        "BlindType": {
+                            "BlindID": 1,
+                            "BlindDesc": "NA"
+                        }
+                    },
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": "Roof Light",
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8595147,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 2290886,
+                "LibraryItem": {
+                    "LibraryItemID": 2290886,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Flue",
+                    "Description": "Any : Any : Flue",
+                    "LibraryItemTypeID": 5,
+                    "LibraryItemSourceID": 1,
+                    "CreatedByCurrentAssessor": false,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2019-09-02T09:52:45.92",
+                    "AssessorGuid": "00000000-0000-0000-0000-000000000000",
+                    "IsCommon": true,
+                    "IsDefault": null,
+                    "IsHidden": null,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 2290886,
+                        "Keywords": null,
+                        "ItemProperties": "Any : Any : Flue"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 1,
+                        "LibraryItemSource1": "SEAI"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Flues",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 5,
+                        "LibraryItemTypeDescription": "Flue"
+                    },
+                    "GuidID": "4830e47c-ecdc-42e2-8139-30527d03811c",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": null,
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": {
+                        "FlueWidthID": null,
+                        "FlueTypeID": null,
+                        "FlueFeatureID": null,
+                        "FlueWidth": null,
+                        "FlueType": null,
+                        "FlueFeature": null
+                    },
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8595148,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 2290883,
+                "LibraryItem": {
+                    "LibraryItemID": 2290883,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Intermittent Fan",
+                    "Description": "Any : Any : Intermittent Fan :Intermittent Fan : ",
+                    "LibraryItemTypeID": 6,
+                    "LibraryItemSourceID": 1,
+                    "CreatedByCurrentAssessor": false,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2019-09-02T09:52:45.913",
+                    "AssessorGuid": "00000000-0000-0000-0000-000000000000",
+                    "IsCommon": true,
+                    "IsDefault": null,
+                    "IsHidden": null,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 2290883,
+                        "Keywords": null,
+                        "ItemProperties": "Intermittent Fan : 0 mm²"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 1,
+                        "LibraryItemSource1": "SEAI"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "FansAndVents",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 6,
+                        "LibraryItemTypeDescription": "Fans and Vents"
+                    },
+                    "GuidID": "c961fe97-d4bd-4905-be6b-a5942cceb1b2",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": null,
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": {
+                        "VentTypeID": 7,
+                        "VentArea": null,
+                        "VentType": {
+                            "VentTypeID": 7,
+                            "VentTypeDesc": "Intermittent fan"
+                        }
+                    },
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8595218,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 2290888,
+                "LibraryItem": {
+                    "LibraryItemID": 2290888,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Attic Hatch - Not Draught Stripped",
+                    "Description": "Any : Any : Attic Hatch - Not Draught Stripped",
+                    "LibraryItemTypeID": 16,
+                    "LibraryItemSourceID": 1,
+                    "CreatedByCurrentAssessor": false,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2019-09-02T09:52:45.92",
+                    "AssessorGuid": "00000000-0000-0000-0000-000000000000",
+                    "IsCommon": true,
+                    "IsDefault": null,
+                    "IsHidden": null,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 2290888,
+                        "Keywords": null,
+                        "ItemProperties": "Any : Any :Attic Hatch - Not Draught Stripped"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 1,
+                        "LibraryItemSource1": "SEAI"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "AtticHatch",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 16,
+                        "LibraryItemTypeDescription": "Attic Hatch"
+                    },
+                    "GuidID": "2741f393-dc92-4490-bbb2-0a6a044b940b",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": {
+                        "DraughtStripped": false
+                    },
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": null,
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 1,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8598616,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 2290874,
+                "LibraryItem": {
+                    "LibraryItemID": 2290874,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Mixer Shower - Vented hot water system + pump",
+                    "Description": "Mixer Shower - Vented hot water system + pump : Mixer :  Vented hot water system + pump",
+                    "LibraryItemTypeID": 10,
+                    "LibraryItemSourceID": 1,
+                    "CreatedByCurrentAssessor": false,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2019-09-02T07:17:34.22",
+                    "AssessorGuid": "00000000-0000-0000-0000-000000000000",
+                    "IsCommon": true,
+                    "IsDefault": null,
+                    "IsHidden": null,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 2290874,
+                        "Keywords": null,
+                        "ItemProperties": "Mixer :  Vented hot water system + pump"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 1,
+                        "LibraryItemSource1": "SEAI"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Shower",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 10,
+                        "LibraryItemTypeDescription": "Shower"
+                    },
+                    "GuidID": "31c05cad-e75d-4521-b500-517495a585cb",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": null,
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": null,
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": {
+                        "ShowerTypeID": 1,
+                        "WaterMixerSystemID": 2,
+                        "FlowRestrictor": false,
+                        "FlowRate": 12.000,
+                        "WasteWaterHeatRecoveryEfficiency": null,
+                        "WasteWaterHeatRecoveryUtilisation": null,
+                        "ShowerType": {
+                            "ShowerTypeID": 1,
+                            "ShowerTypeDesc": "Mixer"
+                        },
+                        "WaterMixerSystem": {
+                            "WaterMixerSystemID": 2,
+                            "WaterMixerSystemDesc": "Vented hot water system + pump",
+                            "ShowerTypeId": 1,
+                            "FlowRate": 12
+                        }
+                    },
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 5,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8598661,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 2290892,
+                "LibraryItem": {
+                    "LibraryItemID": 2290892,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Default LED/CFL",
+                    "Description": "Any : Any : Default LED/CFL : LED/CFL",
+                    "LibraryItemTypeID": 3,
+                    "LibraryItemSourceID": 1,
+                    "CreatedByCurrentAssessor": false,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2019-09-02T09:53:29.583",
+                    "AssessorGuid": "00000000-0000-0000-0000-000000000000",
+                    "IsCommon": true,
+                    "IsDefault": null,
+                    "IsHidden": null,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 2290892,
+                        "Keywords": null,
+                        "ItemProperties": "Any : Any : Default LED/CFL : LED/CFL"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 1,
+                        "LibraryItemSource1": "SEAI"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Bulbs",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 3,
+                        "LibraryItemTypeDescription": "Bulb"
+                    },
+                    "GuidID": "83e6fb48-d793-4894-ae26-7c5b9d7ad45e",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": {
+                        "BulbTypeID": 1,
+                        "Efficiency": 66.90,
+                        "Power": null,
+                        "BulbType": {
+                            "BulbTypeID": 1,
+                            "BulbTypeDesc": "LED/CFL",
+                            "DefaultEfficiency": 66.90
+                        }
+                    },
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": null,
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 80,
+                "Description": null,
+                "IsChanged": null
+            },
+            {
+                "RoomItemID": 8598662,
+                "SurveyID": 654195,
+                "RoomID": null,
+                "RoomName": null,
+                "LibraryItemID": 2290890,
+                "LibraryItem": {
+                    "LibraryItemID": 2290890,
+                    "Manufacturer": "Any",
+                    "Model": "Any",
+                    "MarketingName": "Default Halogen LV",
+                    "Description": "Any : Any : Default Halogen LV : Halogen LV",
+                    "LibraryItemTypeID": 3,
+                    "LibraryItemSourceID": 1,
+                    "CreatedByCurrentAssessor": false,
+                    "Keywords": null,
+                    "AssessorKeywords": null,
+                    "TSCreated": "2019-09-02T09:53:29.583",
+                    "AssessorGuid": "00000000-0000-0000-0000-000000000000",
+                    "IsCommon": true,
+                    "IsDefault": null,
+                    "IsHidden": null,
+                    "Active": true,
+                    "LibraryItemMetadata": {
+                        "LibraryItemID": 2290890,
+                        "Keywords": null,
+                        "ItemProperties": "Any : Any : Default Halogen LV : Halogen LV"
+                    },
+                    "LibraryItemSource": {
+                        "LibraryItemSourceID": 1,
+                        "LibraryItemSource1": "SEAI"
+                    },
+                    "LibraryItemType": {
+                        "LibraryItemType1": "Bulbs",
+                        "AssessorCanAdd": false,
+                        "LibraryItemTypeID": 3,
+                        "LibraryItemTypeDescription": "Bulb"
+                    },
+                    "GuidID": "b44f0b75-333a-4f6a-b446-c794e2400a01",
+                    "OriginalLibraryItemId": null,
+                    "LibraryItemAtticHatch": null,
+                    "LibraryItemBulb": {
+                        "BulbTypeID": 8,
+                        "Efficiency": 26.10,
+                        "Power": null,
+                        "BulbType": {
+                            "BulbTypeID": 8,
+                            "BulbTypeDesc": "Halogen LV",
+                            "DefaultEfficiency": 26.10
+                        }
+                    },
+                    "LibraryItemDoor": null,
+                    "LibraryItemWindow": null,
+                    "LibraryItemHeatSource": null,
+                    "LibraryItemFlue": null,
+                    "LibraryItemVent": null,
+                    "LibraryItemShower": null,
+                    "LibraryItemSolarCollector": null
+                },
+                "Number": 2,
+                "Description": null,
+                "IsChanged": null
+            }
+        ],
+        "SurveyBuilding": {
+            "SurveyBGenerals": [
+                {
+                    "ID": 654216,
+                    "ThermalMassCategoryID": 5,
+                    "ThermalBridgingFactor": 0.1500,
+                    "NoOfSidesSheltered": 2,
+                    "NumberOfStoreys": 3,
+                    "ThermalBridgingFactorID": 1,
+                    "DraughtLobby": null,
+                    "LivingArea": 27.47
+                }
+            ],
+            "SurveyBFloors": [
+                {
+                    "ID": 1363323,
+                    "FloorLocationID": 1,
+                    "FloorLocationDescription": null,
+                    "FloorTypeID": 1,
+                    "FloorTypeDescription": "Ground Floor - Solid",
+                    "Description": "Ground Floor Main",
+                    "UnderFloorHeating": null,
+                    "Area": 151.29,
+                    "UValue": 0.19,
+                    "AgeBandID": 11,
+                    "AgeBandDescription": "2010 onwards",
+                    "ExposedPerimeter": 26.75,
+                    "ExposedWallArea": null,
+                    "SurveyID": 654195,
+                    "InRoof": false,
+                    "ComplianceCheck": false
+                },
+                {
+                    "ID": 1363334,
+                    "FloorLocationID": 1,
+                    "FloorLocationDescription": null,
+                    "FloorTypeID": 1,
+                    "FloorTypeDescription": "Ground Floor - Solid",
+                    "Description": "Extension Ground Floor",
+                    "UnderFloorHeating": null,
+                    "Area": 68.55,
+                    "UValue": 0.24,
+                    "AgeBandID": 11,
+                    "AgeBandDescription": "2010 onwards",
+                    "ExposedPerimeter": 29.36,
+                    "ExposedWallArea": null,
+                    "SurveyID": 654195,
+                    "InRoof": false,
+                    "ComplianceCheck": false
+                },
+                {
+                    "ID": 1368716,
+                    "FloorLocationID": 2,
+                    "FloorLocationDescription": null,
+                    "FloorTypeID": 8,
+                    "FloorTypeDescription": "Non-Heat Loss Floor",
+                    "Description": "Mezzanine First Floor",
+                    "UnderFloorHeating": false,
+                    "Area": 13.1,
+                    "UValue": 0.0,
+                    "AgeBandID": 1,
+                    "AgeBandDescription": "Before 1900",
+                    "ExposedPerimeter": null,
+                    "ExposedWallArea": null,
+                    "SurveyID": 654195,
+                    "InRoof": false,
+                    "ComplianceCheck": false
+                },
+                {
+                    "ID": 1368717,
+                    "FloorLocationID": 2,
+                    "FloorLocationDescription": null,
+                    "FloorTypeID": 8,
+                    "FloorTypeDescription": "Non-Heat Loss Floor",
+                    "Description": "First Floor",
+                    "UnderFloorHeating": false,
+                    "Area": 114.94,
+                    "UValue": 0.0,
+                    "AgeBandID": 1,
+                    "AgeBandDescription": "Before 1900",
+                    "ExposedPerimeter": null,
+                    "ExposedWallArea": null,
+                    "SurveyID": 654195,
+                    "InRoof": false,
+                    "ComplianceCheck": false
+                },
+                {
+                    "ID": 1368718,
+                    "FloorLocationID": 3,
+                    "FloorLocationDescription": null,
+                    "FloorTypeID": 8,
+                    "FloorTypeDescription": "Non-Heat Loss Floor",
+                    "Description": "Mezzanine Second Floor",
+                    "UnderFloorHeating": false,
+                    "Area": 13.1,
+                    "UValue": 0.0,
+                    "AgeBandID": 1,
+                    "AgeBandDescription": "Before 1900",
+                    "ExposedPerimeter": null,
+                    "ExposedWallArea": null,
+                    "SurveyID": 654195,
+                    "InRoof": false,
+                    "ComplianceCheck": false
+                },
+                {
+                    "ID": 1368719,
+                    "FloorLocationID": 3,
+                    "FloorLocationDescription": null,
+                    "FloorTypeID": 8,
+                    "FloorTypeDescription": "Non-Heat Loss Floor",
+                    "Description": "Second Floor",
+                    "UnderFloorHeating": false,
+                    "Area": 114.94,
+                    "UValue": 0.0,
+                    "AgeBandID": 1,
+                    "AgeBandDescription": "Before 1900",
+                    "ExposedPerimeter": null,
+                    "ExposedWallArea": null,
+                    "SurveyID": 654195,
+                    "InRoof": false,
+                    "ComplianceCheck": false
+                },
+                {
+                    "ID": 1368725,
+                    "FloorLocationID": 3,
+                    "FloorLocationDescription": null,
+                    "FloorTypeID": 8,
+                    "FloorTypeDescription": "Non-Heat Loss Floor",
+                    "Description": "Mezzanine Third Floor",
+                    "UnderFloorHeating": false,
+                    "Area": 10.96,
+                    "UValue": 0.0,
+                    "AgeBandID": 1,
+                    "AgeBandDescription": "Before 1900",
+                    "ExposedPerimeter": null,
+                    "ExposedWallArea": null,
+                    "SurveyID": 654195,
+                    "InRoof": false,
+                    "ComplianceCheck": false
+                }
+            ],
+            "SurveyBRoofs": [
+                {
+                    "ID": 1233551,
+                    "TGDLRoofTypeId": 2,
+                    "RoofTypeDescription": "Pitched Roof - Insulated on Ceiling",
+                    "RoofLocationID": null,
+                    "RoofLocationDescription": null,
+                    "Description": "Flat Ceiling Main House",
+                    "Area": 107.3,
+                    "UValue": 0.13,
+                    "ComplianceCheck": null,
+                    "Insulation": 300,
+                    "InsulationThicknessDescription": ">= 300 mm",
+                    "AgeBandID": 1,
+                    "AgeBandDescription": "Before 1900",
+                    "InsulationUnknown": false
+                },
+                {
+                    "ID": 1233558,
+                    "TGDLRoofTypeId": 3,
+                    "RoofTypeDescription": "Flat Roof",
+                    "RoofLocationID": null,
+                    "RoofLocationDescription": null,
+                    "Description": "Flat Roof to Right side (Boot Room)",
+                    "Area": 18.15,
+                    "UValue": 0.22,
+                    "ComplianceCheck": null,
+                    "Insulation": null,
+                    "InsulationThicknessDescription": null,
+                    "AgeBandID": 11,
+                    "AgeBandDescription": "2010 onwards",
+                    "InsulationUnknown": true
+                },
+                {
+                    "ID": 1233561,
+                    "TGDLRoofTypeId": 2,
+                    "RoofTypeDescription": "Pitched Roof - Insulated on Ceiling",
+                    "RoofLocationID": null,
+                    "RoofLocationDescription": null,
+                    "Description": "Flat Roof to Rear Extension",
+                    "Area": 68.56,
+                    "UValue": 0.22,
+                    "ComplianceCheck": null,
+                    "Insulation": null,
+                    "InsulationThicknessDescription": null,
+                    "AgeBandID": 11,
+                    "AgeBandDescription": "2010 onwards",
+                    "InsulationUnknown": true
+                },
+                {
+                    "ID": 1233565,
+                    "TGDLRoofTypeId": 3,
+                    "RoofTypeDescription": "Flat Roof",
+                    "RoofLocationID": null,
+                    "RoofLocationDescription": null,
+                    "Description": "Steps Above Plant Room",
+                    "Area": 2.98,
+                    "UValue": 2.3,
+                    "ComplianceCheck": null,
+                    "Insulation": null,
+                    "InsulationThicknessDescription": null,
+                    "AgeBandID": 1,
+                    "AgeBandDescription": "Before 1900",
+                    "InsulationUnknown": true
+                }
+            ],
+            "SurveyBWalls": [
+                {
+                    "ID": 1216503,
+                    "WallTypeID": 2,
+                    "WallTypeDescription": "225mm Solid Brick",
+                    "Description": "Main House External Walls",
+                    "Area": 304.1,
+                    "UValue": 2.1,
+                    "ComplianceCheck": false,
+                    "SemiExposed": null,
+                    "AgeBandID": 1,
+                    "AgeBandDescription": "Before 1900"
+                },
+                {
+                    "ID": 1216537,
+                    "WallTypeID": 4,
+                    "WallTypeDescription": "300mm Cavity",
+                    "Description": "Rear Ext",
+                    "Area": 41.98,
+                    "UValue": 0.27,
+                    "ComplianceCheck": false,
+                    "SemiExposed": null,
+                    "AgeBandID": 11,
+                    "AgeBandDescription": "2010 onwards"
+                },
+                {
+                    "ID": 1216570,
+                    "WallTypeID": 8,
+                    "WallTypeDescription": "Timber Frame",
+                    "Description": "Roof Light walls",
+                    "Area": 9.58,
+                    "UValue": 0.27,
+                    "ComplianceCheck": false,
+                    "SemiExposed": null,
+                    "AgeBandID": 11,
+                    "AgeBandDescription": "2010 onwards"
+                }
+            ],
+            "SurveyStoreys": [
+                {
+                    "ID": 1157593,
+                    "StoreyLevel": 1,
+                    "AverageStoreyHeight": 2.710
+                },
+                {
+                    "ID": 1157595,
+                    "StoreyLevel": 2,
+                    "AverageStoreyHeight": 4.120
+                },
+                {
+                    "ID": 1157596,
+                    "StoreyLevel": 3,
+                    "AverageStoreyHeight": 3.930
+                }
+            ]
+        },
+        "SurveySpaceHeating": {
+            "SurveySHSelectedTypes": [
+                {
+                    "ID": 653923,
+                    "SurveyID": 654195,
+                    "SpaceHeatingTypeID": 1
+                }
+            ],
+            "SurveySHCHPGroups": [],
+            "SurveySHGainLossGroups": [],
+            "SurveySHHeatSourceGroups": [],
+            "SurveySHHeatSources": [
+                {
+                    "ID": 1275369,
+                    "SurveyID": 654195,
+                    "LibraryItemID": 5801575,
+                    "LibraryItem": {
+                        "LibraryItemID": 5801575,
+                        "Manufacturer": "Thermia",
+                        "Model": "Atec 16kW",
+                        "MarketingName": "Thermia Varmepumpar Atec 16kW",
+                        "Description": "Thermia : Atec 16kW : Thermia Varmepumpar Atec 16kW",
+                        "LibraryItemTypeID": 8,
+                        "LibraryItemSourceID": 2,
+                        "CreatedByCurrentAssessor": true,
+                        "Keywords": null,
+                        "AssessorKeywords": null,
+                        "TSCreated": "2023-06-12T11:22:19.3",
+                        "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                        "IsCommon": false,
+                        "IsDefault": null,
+                        "IsHidden": false,
+                        "Active": true,
+                        "LibraryItemMetadata": {
+                            "LibraryItemID": 5801575,
+                            "Keywords": null,
+                            "ItemProperties": "Thermia : Atec 16kW :  : 121% : "
+                        },
+                        "LibraryItemSource": {
+                            "LibraryItemSourceID": 2,
+                            "LibraryItemSource1": "Assessor"
+                        },
+                        "LibraryItemType": {
+                            "LibraryItemType1": "Heating System",
+                            "AssessorCanAdd": true,
+                            "LibraryItemTypeID": 8,
+                            "LibraryItemTypeDescription": "Heat Source"
+                        },
+                        "GuidID": "fa4b87a1-0b39-446e-b1be-190073268688",
+                        "OriginalLibraryItemId": null,
+                        "LibraryItemAtticHatch": null,
+                        "LibraryItemBulb": null,
+                        "LibraryItemDoor": null,
+                        "LibraryItemWindow": null,
+                        "LibraryItemHeatSource": {
+                            "ManufacturerName": "Thermia",
+                            "BrandName": null,
+                            "ModelName": "Atec 16kW",
+                            "ModelQualifier": null,
+                            "FirstYearOfManufacture": null,
+                            "FinalYearOfManufacture": null,
+                            "FuelID": null,
+                            "PositionID": null,
+                            "ExposureRatingID": null,
+                            "MainTypeID": null,
+                            "CondensingID": null,
+                            "FlueTypeID": null,
+                            "FanAssistanceID": null,
+                            "BoilerPowerBottom": null,
+                            "BoilerPowerTop": null,
+                            "EnergyEfficiencyBand": null,
+                            "DEAPSeasonalEfficiency": 121.0,
+                            "DEAPWHSeasonalEfficiency": 76.0,
+                            "EfficiencyCategoryID": null,
+                            "DEAPEquationUsed": null,
+                            "IgnitionID": null,
+                            "BurnerControlID": null,
+                            "ElectricalPowerFiring": null,
+                            "ElectricalPowerNotFiring": null,
+                            "StoreTypeID": null,
+                            "StoreLoss": null,
+                            "SeparateStore": null,
+                            "StoreVolume": null,
+                            "StoreInsulationThickness": null,
+                            "StoreInsulationTypeID": null,
+                            "StoreTemperature": null,
+                            "StoreHeatLoss": null,
+                            "KeepHotTypeID": null,
+                            "KeepHotTimer": null,
+                            "KeepHotElectricHeater": null,
+                            "DBEntryUpdated": null,
+                            "TradeAssociation": null,
+                            "RunTimeIndicator": null,
+                            "BoilerTypeID": null,
+                            "IsEfficiencyComputed": false,
+                            "HeatingSourceTypeId": 5,
+                            "TS_HeatingSourceType": {
+                                "Id": 5,
+                                "Description": "Heat pumps"
+                            },
+                            "TS_ModelStructure": null,
+                            "TS_BoilerType": null,
+                            "TS_BoilerBurnerControl": null,
+                            "TS_BoilerCondensing": null,
+                            "TS_BoilerEfficiencyCategory": null,
+                            "TS_BoilerExposureRating": null,
+                            "TS_BoilerFanAssistance": null,
+                            "TS_BoilerFlueType": null,
+                            "TS_BoilerFuel": null,
+                            "TS_BoilerIgnition": null,
+                            "TS_BoilerKeepHotType": null,
+                            "TS_BoilerMaintype": null,
+                            "TS_BoilerMountingPosition": null,
+                            "TS_BoilerStoreInsulationType": null,
+                            "TS_BoilerStoreType": null,
+                            "LibraryItemHeatPump": {
+                                "HeatPumpTypeId": 1,
+                                "HeatPumpType": {
+                                    "Id": 1,
+                                    "Description": "Air to Water"
+                                },
+                                "SpaceHeatingStandardId": 1,
+                                "SpaceHeatingStandard": {
+                                    "Id": 1,
+                                    "Description": "I.S. EN 14825",
+                                    "RequireEN14825Testdata": false
+                                },
+                                "WaterHeatingStandardId": 3,
+                                "WaterHeatingStandard": {
+                                    "Id": 3,
+                                    "Description": "I.S. EN 16147",
+                                    "RequireEN255Testdata": false,
+                                    "RequireEN16147Testdata": false,
+                                    "ThermostatPresent": false,
+                                    "HeatPumpTypeId": null
+                                },
+                                "TemperatureControlId": 1,
+                                "TemperatureControl": {
+                                    "Id": 1,
+                                    "Description": "Fixed Outlet"
+                                },
+                                "LoadWeatherCompensation": null,
+                                "IntegratedImmersion": null,
+                                "FlowTemperature": null,
+                                "TOL": -10.00,
+                                "WTOL": 60.00,
+                                "SpaceHeatingTestData": [
+                                    {
+                                        "Id": 79770,
+                                        "ApplicationHeatingCapacityA": 10.00,
+                                        "ApplicationHeatingCoefficientOfPerformanceA": 3.22,
+                                        "ApplicationHeatingCapacityB": 12.30,
+                                        "ApplicationHeatingCoefficientOfPerformanceB": 4.00,
+                                        "ApplicationHeatingCapacityC": 14.50,
+                                        "ApplicationHeatingCoefficientOfPerformanceC": 4.49,
+                                        "ApplicationHeatingCapacityD": 18.20,
+                                        "ApplicationHeatingCoefficientOfPerformanceD": 6.00,
+                                        "ApplicationHeatingCapacityE": 9.00,
+                                        "ApplicationHeatingCoefficientOfPerformanceE": 3.00,
+                                        "TemperatureCategoryId": 1,
+                                        "TemperatureCategory": {
+                                            "Id": 1,
+                                            "Description": "Low"
+                                        },
+                                        "LibraryItemId": 5801575,
+                                        "LibraryItem": null
+                                    },
+                                    {
+                                        "Id": 79771,
+                                        "ApplicationHeatingCapacityA": 9.70,
+                                        "ApplicationHeatingCoefficientOfPerformanceA": 2.37,
+                                        "ApplicationHeatingCapacityB": 12.00,
+                                        "ApplicationHeatingCoefficientOfPerformanceB": 3.03,
+                                        "ApplicationHeatingCapacityC": 13.80,
+                                        "ApplicationHeatingCoefficientOfPerformanceC": 3.62,
+                                        "ApplicationHeatingCapacityD": 17.80,
+                                        "ApplicationHeatingCoefficientOfPerformanceD": 4.75,
+                                        "ApplicationHeatingCapacityE": 9.00,
+                                        "ApplicationHeatingCoefficientOfPerformanceE": 2.00,
+                                        "TemperatureCategoryId": 3,
+                                        "TemperatureCategory": {
+                                            "Id": 3,
+                                            "Description": "Medium"
+                                        },
+                                        "LibraryItemId": 5801575,
+                                        "LibraryItem": null
+                                    }
+                                ],
+                                "WaterHeatingTestData": {
+                                    "LibraryItemID": 5801575,
+                                    "LibraryItem": null,
+                                    "WaterHeatingSourceOfDataId": 2,
+                                    "WaterHeatingSourceOfData": {
+                                        "Id": 2,
+                                        "Description": "Water heating energy efficiency [%]"
+                                    },
+                                    "DeclaredLoadProfileId": 8,
+                                    "DeclaredLoadProfile": {
+                                        "Id": 8,
+                                        "Description": "XXL"
+                                    },
+                                    "CoefficientOfPerformance": 0.00,
+                                    "ReferenceHotWaterTemperature": 60.00,
+                                    "HeatingCapacityDHW": null,
+                                    "CapacityOfHeatPump": 16.00,
+                                    "WaterHeatingEfficiency": 76.00,
+                                    "StandByHeatLoss": 2.20,
+                                    "VolumeOfDHW": 280,
+                                    "ReferenceHotWaterTemperatureDefaulted": null
+                                },
+                                "CoolingEfficiencyRatio": null,
+                                "LowTemperatureTestCondition": null,
+                                "MediumTemperatureTestCondition": null,
+                                "HighTemperatureTestCondition": null,
+                                "VeryHighTemperatureTestCondition": null,
+                                "RatedAirFlowRate": null,
+                                "FunctionHeating": null,
+                                "FunctionCooling": null
+                            },
+                            "ModelStructureID": null,
+                            "PtoolsHPProductIndexNumber": null,
+                            "ManufacturerRefNumber": null,
+                            "ApplianceID": null,
+                            "IndoorUnitIdentifier": null,
+                            "OutdoorUnitIdentifier": null
+                        },
+                        "LibraryItemFlue": null,
+                        "LibraryItemVent": null,
+                        "LibraryItemShower": null,
+                        "LibraryItemSolarCollector": null
+                    },
+                    "HeatSourceTypeID": 1,
+                    "FuelTypeID": 28,
+                    "FuelType": {
+                        "FuelTypeID": 28,
+                        "FuelTypeCategory": "Electricity",
+                        "FuelTypeDesc": "Electricity",
+                        "PrimaryEnergyFactor": 1.75,
+                        "CO2Emissions": 0.224,
+                        "CatGroupCHPHeating": true,
+                        "IsBackUpFuelType": true,
+                        "IsCoolingSystemFuelType": true,
+                        "BackUpAdjustedEfficiency": 1.0
+                    },
+                    "DesignFlowTemperature": 55,
+                    "DesignFlowTemperatureDefault": 55,
+                    "DailyOperationHours": 24,
+                    "BackUpSpaceHeaterFuelId": null,
+                    "BackUpSpaceHeaterFuel": null,
+                    "BackUpWaterHeaterFuelId": null,
+                    "BackUpWaterHeaterFuel": null,
+                    "BackUpSpaceHeaterEfficiecny": null,
+                    "BackUpWaterHeaterEfficiecny": null,
+                    "AdjustmentFactorBasis": 1.0000,
+                    "SpaceHeatingSeasonalEfficiency": 309.64,
+                    "WaterHeatingSeasonalEfficiency": 188.68,
+                    "RenewableContribution": null,
+                    "HeatPumpEnvironmental": 46926.052344,
+                    "IsEfficiencyComputed": true,
+                    "Fraction": 0.90,
+                    "PercentageOfHeat": 90.000,
+                    "LinkToWater": true,
+                    "ProvidesCooling": null
+                },
+                {
+                    "ID": 1275374,
+                    "SurveyID": 654195,
+                    "LibraryItemID": 2291017,
+                    "LibraryItem": {
+                        "LibraryItemID": 2291017,
+                        "Manufacturer": "Any",
+                        "Model": "Any",
+                        "MarketingName": "Default solid fuel room heater - Closed room heater",
+                        "Description": "Any : Any : Default solid fuel room heater - Closed room heater",
+                        "LibraryItemTypeID": 8,
+                        "LibraryItemSourceID": 1,
+                        "CreatedByCurrentAssessor": false,
+                        "Keywords": null,
+                        "AssessorKeywords": null,
+                        "TSCreated": "2019-09-02T09:55:06.313",
+                        "AssessorGuid": "00000000-0000-0000-0000-000000000000",
+                        "IsCommon": true,
+                        "IsDefault": null,
+                        "IsHidden": null,
+                        "Active": true,
+                        "LibraryItemMetadata": {
+                            "LibraryItemID": 2291017,
+                            "Keywords": null,
+                            "ItemProperties": "Any : Any : Default solid fuel room heater - Closed room heater : : 60.00 %"
+                        },
+                        "LibraryItemSource": {
+                            "LibraryItemSourceID": 1,
+                            "LibraryItemSource1": "SEAI"
+                        },
+                        "LibraryItemType": {
+                            "LibraryItemType1": "Heating System",
+                            "AssessorCanAdd": true,
+                            "LibraryItemTypeID": 8,
+                            "LibraryItemTypeDescription": "Heat Source"
+                        },
+                        "GuidID": "b8e8ecce-1481-4ba0-bedf-766ac4ad127c",
+                        "OriginalLibraryItemId": null,
+                        "LibraryItemAtticHatch": null,
+                        "LibraryItemBulb": null,
+                        "LibraryItemDoor": null,
+                        "LibraryItemWindow": null,
+                        "LibraryItemHeatSource": {
+                            "ManufacturerName": null,
+                            "BrandName": null,
+                            "ModelName": null,
+                            "ModelQualifier": null,
+                            "FirstYearOfManufacture": null,
+                            "FinalYearOfManufacture": null,
+                            "FuelID": null,
+                            "PositionID": null,
+                            "ExposureRatingID": null,
+                            "MainTypeID": null,
+                            "CondensingID": null,
+                            "FlueTypeID": null,
+                            "FanAssistanceID": null,
+                            "BoilerPowerBottom": null,
+                            "BoilerPowerTop": null,
+                            "EnergyEfficiencyBand": null,
+                            "DEAPSeasonalEfficiency": 60.0,
+                            "DEAPWHSeasonalEfficiency": 60.0,
+                            "EfficiencyCategoryID": null,
+                            "DEAPEquationUsed": null,
+                            "IgnitionID": null,
+                            "BurnerControlID": null,
+                            "ElectricalPowerFiring": null,
+                            "ElectricalPowerNotFiring": null,
+                            "StoreTypeID": null,
+                            "StoreLoss": null,
+                            "SeparateStore": null,
+                            "StoreVolume": null,
+                            "StoreInsulationThickness": null,
+                            "StoreInsulationTypeID": null,
+                            "StoreTemperature": null,
+                            "StoreHeatLoss": null,
+                            "KeepHotTypeID": null,
+                            "KeepHotTimer": null,
+                            "KeepHotElectricHeater": null,
+                            "DBEntryUpdated": null,
+                            "TradeAssociation": null,
+                            "RunTimeIndicator": null,
+                            "BoilerTypeID": null,
+                            "IsEfficiencyComputed": true,
+                            "HeatingSourceTypeId": 6,
+                            "TS_HeatingSourceType": {
+                                "Id": 6,
+                                "Description": "Room heaters"
+                            },
+                            "TS_ModelStructure": null,
+                            "TS_BoilerType": null,
+                            "TS_BoilerBurnerControl": null,
+                            "TS_BoilerCondensing": null,
+                            "TS_BoilerEfficiencyCategory": null,
+                            "TS_BoilerExposureRating": null,
+                            "TS_BoilerFanAssistance": null,
+                            "TS_BoilerFlueType": null,
+                            "TS_BoilerFuel": null,
+                            "TS_BoilerIgnition": null,
+                            "TS_BoilerKeepHotType": null,
+                            "TS_BoilerMaintype": null,
+                            "TS_BoilerMountingPosition": null,
+                            "TS_BoilerStoreInsulationType": null,
+                            "TS_BoilerStoreType": null,
+                            "LibraryItemHeatPump": null,
+                            "ModelStructureID": null,
+                            "PtoolsHPProductIndexNumber": null,
+                            "ManufacturerRefNumber": null,
+                            "ApplianceID": null,
+                            "IndoorUnitIdentifier": null,
+                            "OutdoorUnitIdentifier": null
+                        },
+                        "LibraryItemFlue": null,
+                        "LibraryItemVent": null,
+                        "LibraryItemShower": null,
+                        "LibraryItemSolarCollector": null
+                    },
+                    "HeatSourceTypeID": 2,
+                    "FuelTypeID": 15,
+                    "FuelType": {
+                        "FuelTypeID": 15,
+                        "FuelTypeCategory": "Solid fuel",
+                        "FuelTypeDesc": "Solid Multi-Fuel",
+                        "PrimaryEnergyFactor": 1.10,
+                        "CO2Emissions": 0.369,
+                        "CatGroupCHPHeating": true,
+                        "IsBackUpFuelType": true,
+                        "IsCoolingSystemFuelType": false,
+                        "BackUpAdjustedEfficiency": 1.99
+                    },
+                    "DesignFlowTemperature": null,
+                    "DesignFlowTemperatureDefault": null,
+                    "DailyOperationHours": null,
+                    "BackUpSpaceHeaterFuelId": null,
+                    "BackUpSpaceHeaterFuel": null,
+                    "BackUpWaterHeaterFuelId": null,
+                    "BackUpWaterHeaterFuel": null,
+                    "BackUpSpaceHeaterEfficiecny": null,
+                    "BackUpWaterHeaterEfficiecny": null,
+                    "AdjustmentFactorBasis": null,
+                    "SpaceHeatingSeasonalEfficiency": 60.0,
+                    "WaterHeatingSeasonalEfficiency": 60.0,
+                    "RenewableContribution": null,
+                    "HeatPumpEnvironmental": null,
+                    "IsEfficiencyComputed": true,
+                    "Fraction": 0.10,
+                    "PercentageOfHeat": 10.000,
+                    "LinkToWater": null,
+                    "ProvidesCooling": null
+                }
+            ],
+            "SurveySHCHPs": [],
+            "SurveySHGainLosses": [
+                {
+                    "ID": 625044,
+                    "TemperatureAdjustment": 0.0,
+                    "HeatingSystemControlCategory": 1,
+                    "HeatingSystemResponvenessCat": 3.0,
+                    "PumpsCentralHeating": 1,
+                    "PumpsOilBoiler": null,
+                    "PumpsGasBoilerFlueFan": null,
+                    "CentralHeatingThermostat": true,
+                    "OilBoilerThermostat": null,
+                    "CentralHeatingInsideDwelling": true,
+                    "OilBoilerInsideDwelling": null,
+                    "CentralHeatingTotalElectirc": 130.0,
+                    "WarmAirHeatingOrFanCoilRadiator": null
+                }
+            ],
+            "SurveySHSummers": [
+                {
+                    "ID": 641665,
+                    "AirChangeRate": null,
+                    "SummerMeanExternal": 15.0
+                }
+            ],
+            "SurveySHHeatSourceProperties": [
+                {
+                    "ID": 640680,
+                    "SurveyID": 654195,
+                    "HeatingSystemCategoryID": 2,
+                    "SubCategory1ID": 12,
+                    "SubCategory2ID": null,
+                    "HeatingSystem": 60,
+                    "TS_DeapTable4HeatingSystem": {
+                        "Description": "Air-to-water heat pump (electric) ",
+                        "Id": 60,
+                        "HeatingSourceTypeId": 5
+                    },
+                    "HeatEmitterType": 6,
+                    "TS_DeapTable4HeatEmitterType": {
+                        "Id": 6,
+                        "Description": "Both radiators and underfloor heating in concrete slab - living area heated by underfloor",
+                        "OnePlusRadiators": true,
+                        "OnePlusFanCoilUnits": false,
+                        "UnderfloorHeating": true
+                    },
+                    "HeatingSystemControlsID": 14,
+                    "SpaceHeatingSuppliesDHW": null,
+                    "BoilerInterlockPresent": false,
+                    "DelayedThermostat": false,
+                    "IntegratedThermalStore": false,
+                    "PassiveFlueGasHeatRecoveryPresent": false,
+                    "LoadWeatherCompensation": false,
+                    "CondensingBoilerFuelledLPG": false,
+                    "EfficiencyObtainedHARPDatabaseCertifiedManufacturer": false,
+                    "CaseEmissions": null,
+                    "HeatTransferToWater": null,
+                    "HeatPumpDHW": null
+                }
+            ]
+        },
+        "SurveyWaterHeating": {
+            "SurveyWHHeatSources": [
+                {
+                    "ID": 774221,
+                    "SurveyID": 654195,
+                    "LibraryItemID": 5801575,
+                    "LibraryItem": {
+                        "LibraryItemID": 5801575,
+                        "Manufacturer": "Thermia",
+                        "Model": "Atec 16kW",
+                        "MarketingName": "Thermia Varmepumpar Atec 16kW",
+                        "Description": "Thermia : Atec 16kW : Thermia Varmepumpar Atec 16kW",
+                        "LibraryItemTypeID": 8,
+                        "LibraryItemSourceID": 2,
+                        "CreatedByCurrentAssessor": true,
+                        "Keywords": null,
+                        "AssessorKeywords": null,
+                        "TSCreated": "2023-06-12T11:22:19.3",
+                        "AssessorGuid": "b2f4090d-3d3f-4e5c-8327-e51b568e6192",
+                        "IsCommon": false,
+                        "IsDefault": null,
+                        "IsHidden": false,
+                        "Active": true,
+                        "LibraryItemMetadata": {
+                            "LibraryItemID": 5801575,
+                            "Keywords": null,
+                            "ItemProperties": "Thermia : Atec 16kW :  : 121% : "
+                        },
+                        "LibraryItemSource": {
+                            "LibraryItemSourceID": 2,
+                            "LibraryItemSource1": "Assessor"
+                        },
+                        "LibraryItemType": {
+                            "LibraryItemType1": "Heating System",
+                            "AssessorCanAdd": true,
+                            "LibraryItemTypeID": 8,
+                            "LibraryItemTypeDescription": "Heat Source"
+                        },
+                        "GuidID": "fa4b87a1-0b39-446e-b1be-190073268688",
+                        "OriginalLibraryItemId": null,
+                        "LibraryItemAtticHatch": null,
+                        "LibraryItemBulb": null,
+                        "LibraryItemDoor": null,
+                        "LibraryItemWindow": null,
+                        "LibraryItemHeatSource": {
+                            "ManufacturerName": "Thermia",
+                            "BrandName": null,
+                            "ModelName": "Atec 16kW",
+                            "ModelQualifier": null,
+                            "FirstYearOfManufacture": null,
+                            "FinalYearOfManufacture": null,
+                            "FuelID": null,
+                            "PositionID": null,
+                            "ExposureRatingID": null,
+                            "MainTypeID": null,
+                            "CondensingID": null,
+                            "FlueTypeID": null,
+                            "FanAssistanceID": null,
+                            "BoilerPowerBottom": null,
+                            "BoilerPowerTop": null,
+                            "EnergyEfficiencyBand": null,
+                            "DEAPSeasonalEfficiency": 121.0,
+                            "DEAPWHSeasonalEfficiency": 76.0,
+                            "EfficiencyCategoryID": null,
+                            "DEAPEquationUsed": null,
+                            "IgnitionID": null,
+                            "BurnerControlID": null,
+                            "ElectricalPowerFiring": null,
+                            "ElectricalPowerNotFiring": null,
+                            "StoreTypeID": null,
+                            "StoreLoss": null,
+                            "SeparateStore": null,
+                            "StoreVolume": null,
+                            "StoreInsulationThickness": null,
+                            "StoreInsulationTypeID": null,
+                            "StoreTemperature": null,
+                            "StoreHeatLoss": null,
+                            "KeepHotTypeID": null,
+                            "KeepHotTimer": null,
+                            "KeepHotElectricHeater": null,
+                            "DBEntryUpdated": null,
+                            "TradeAssociation": null,
+                            "RunTimeIndicator": null,
+                            "BoilerTypeID": null,
+                            "IsEfficiencyComputed": false,
+                            "HeatingSourceTypeId": 5,
+                            "TS_HeatingSourceType": {
+                                "Id": 5,
+                                "Description": "Heat pumps"
+                            },
+                            "TS_ModelStructure": null,
+                            "TS_BoilerType": null,
+                            "TS_BoilerBurnerControl": null,
+                            "TS_BoilerCondensing": null,
+                            "TS_BoilerEfficiencyCategory": null,
+                            "TS_BoilerExposureRating": null,
+                            "TS_BoilerFanAssistance": null,
+                            "TS_BoilerFlueType": null,
+                            "TS_BoilerFuel": null,
+                            "TS_BoilerIgnition": null,
+                            "TS_BoilerKeepHotType": null,
+                            "TS_BoilerMaintype": null,
+                            "TS_BoilerMountingPosition": null,
+                            "TS_BoilerStoreInsulationType": null,
+                            "TS_BoilerStoreType": null,
+                            "LibraryItemHeatPump": {
+                                "HeatPumpTypeId": 1,
+                                "HeatPumpType": {
+                                    "Id": 1,
+                                    "Description": "Air to Water"
+                                },
+                                "SpaceHeatingStandardId": 1,
+                                "SpaceHeatingStandard": {
+                                    "Id": 1,
+                                    "Description": "I.S. EN 14825",
+                                    "RequireEN14825Testdata": false
+                                },
+                                "WaterHeatingStandardId": 3,
+                                "WaterHeatingStandard": {
+                                    "Id": 3,
+                                    "Description": "I.S. EN 16147",
+                                    "RequireEN255Testdata": false,
+                                    "RequireEN16147Testdata": false,
+                                    "ThermostatPresent": false,
+                                    "HeatPumpTypeId": null
+                                },
+                                "TemperatureControlId": 1,
+                                "TemperatureControl": {
+                                    "Id": 1,
+                                    "Description": "Fixed Outlet"
+                                },
+                                "LoadWeatherCompensation": null,
+                                "IntegratedImmersion": null,
+                                "FlowTemperature": null,
+                                "TOL": -10.00,
+                                "WTOL": 60.00,
+                                "SpaceHeatingTestData": [
+                                    {
+                                        "Id": 79770,
+                                        "ApplicationHeatingCapacityA": 10.00,
+                                        "ApplicationHeatingCoefficientOfPerformanceA": 3.22,
+                                        "ApplicationHeatingCapacityB": 12.30,
+                                        "ApplicationHeatingCoefficientOfPerformanceB": 4.00,
+                                        "ApplicationHeatingCapacityC": 14.50,
+                                        "ApplicationHeatingCoefficientOfPerformanceC": 4.49,
+                                        "ApplicationHeatingCapacityD": 18.20,
+                                        "ApplicationHeatingCoefficientOfPerformanceD": 6.00,
+                                        "ApplicationHeatingCapacityE": 9.00,
+                                        "ApplicationHeatingCoefficientOfPerformanceE": 3.00,
+                                        "TemperatureCategoryId": 1,
+                                        "TemperatureCategory": {
+                                            "Id": 1,
+                                            "Description": "Low"
+                                        },
+                                        "LibraryItemId": 5801575,
+                                        "LibraryItem": null
+                                    },
+                                    {
+                                        "Id": 79771,
+                                        "ApplicationHeatingCapacityA": 9.70,
+                                        "ApplicationHeatingCoefficientOfPerformanceA": 2.37,
+                                        "ApplicationHeatingCapacityB": 12.00,
+                                        "ApplicationHeatingCoefficientOfPerformanceB": 3.03,
+                                        "ApplicationHeatingCapacityC": 13.80,
+                                        "ApplicationHeatingCoefficientOfPerformanceC": 3.62,
+                                        "ApplicationHeatingCapacityD": 17.80,
+                                        "ApplicationHeatingCoefficientOfPerformanceD": 4.75,
+                                        "ApplicationHeatingCapacityE": 9.00,
+                                        "ApplicationHeatingCoefficientOfPerformanceE": 2.00,
+                                        "TemperatureCategoryId": 3,
+                                        "TemperatureCategory": {
+                                            "Id": 3,
+                                            "Description": "Medium"
+                                        },
+                                        "LibraryItemId": 5801575,
+                                        "LibraryItem": null
+                                    }
+                                ],
+                                "WaterHeatingTestData": {
+                                    "LibraryItemID": 5801575,
+                                    "LibraryItem": null,
+                                    "WaterHeatingSourceOfDataId": 2,
+                                    "WaterHeatingSourceOfData": {
+                                        "Id": 2,
+                                        "Description": "Water heating energy efficiency [%]"
+                                    },
+                                    "DeclaredLoadProfileId": 8,
+                                    "DeclaredLoadProfile": {
+                                        "Id": 8,
+                                        "Description": "XXL"
+                                    },
+                                    "CoefficientOfPerformance": 0.00,
+                                    "ReferenceHotWaterTemperature": 60.00,
+                                    "HeatingCapacityDHW": null,
+                                    "CapacityOfHeatPump": 16.00,
+                                    "WaterHeatingEfficiency": 76.00,
+                                    "StandByHeatLoss": 2.20,
+                                    "VolumeOfDHW": 280,
+                                    "ReferenceHotWaterTemperatureDefaulted": null
+                                },
+                                "CoolingEfficiencyRatio": null,
+                                "LowTemperatureTestCondition": null,
+                                "MediumTemperatureTestCondition": null,
+                                "HighTemperatureTestCondition": null,
+                                "VeryHighTemperatureTestCondition": null,
+                                "RatedAirFlowRate": null,
+                                "FunctionHeating": null,
+                                "FunctionCooling": null
+                            },
+                            "ModelStructureID": null,
+                            "PtoolsHPProductIndexNumber": null,
+                            "ManufacturerRefNumber": null,
+                            "ApplianceID": null,
+                            "IndoorUnitIdentifier": null,
+                            "OutdoorUnitIdentifier": null
+                        },
+                        "LibraryItemFlue": null,
+                        "LibraryItemVent": null,
+                        "LibraryItemShower": null,
+                        "LibraryItemSolarCollector": null
+                    },
+                    "FuelTypeID": 28,
+                    "FuelType": {
+                        "FuelTypeID": 28,
+                        "FuelTypeCategory": "Electricity",
+                        "FuelTypeDesc": "Electricity",
+                        "PrimaryEnergyFactor": 1.75,
+                        "CO2Emissions": 0.224,
+                        "CatGroupCHPHeating": true,
+                        "IsBackUpFuelType": true,
+                        "IsCoolingSystemFuelType": true,
+                        "BackUpAdjustedEfficiency": 1.0
+                    },
+                    "BackUpWaterHeaterFuelId": null,
+                    "BackUpWaterHeaterFuel": null,
+                    "AdjustmentFactorBasis": 1.0000,
+                    "DailyOperationHours": 24,
+                    "WaterHeatingSeasonalEfficiency": 188.68,
+                    "BackUpWaterHeaterEfficiecny": null,
+                    "FractionCHP": null,
+                    "LinkToSpace": true,
+                    "IsEfficiencyComputed": true,
+                    "HeatPumpEnvironmental": 2166.694454
+                }
+            ],
+            "SurveyWHStorageTypes": [
+                {
+                    "ID": 617889,
+                    "WaterStorageID": 1,
+                    "DomesticHotWaterStorageId": 3,
+                    "CylinderThermostat": true,
+                    "CylinderHeatedByBoiler": true,
+                    "InsulationTypeID": 1,
+                    "CylinderThickness": 30.0,
+                    "Timer": null,
+                    "Cupboard": null,
+                    "CPSU": null,
+                    "WinterOpTempID": null,
+                    "LowWaterUsage": null
+                }
+            ],
+            "SurveyWHSolars": [],
+            "SurveyWHLosses": [
+                {
+                    "ID": 638179,
+                    "SystemTypeID": 3,
+                    "Distribution": true,
+                    "Storage": true,
+                    "StorageIndoorGroupScheme": true,
+                    "StorageVolume": 400,
+                    "MakeModel": "Joule 1535x710 Cyclone",
+                    "DeclaredLoss": 2.45,
+                    "AdditionalLoss": null,
+                    "KeepHotConsumption": null,
+                    "ElecImmersionInSummer": null,
+                    "CombiID": null,
+                    "KeepHotID": null,
+                    "TempFactorUnadj": 0.6,
+                    "TempFactorMultiplier": 0.9
+                }
+            ]
+        },
+        "SurveyVentilation": {
+            "SurveyVentilations": [
+                {
+                    "ID": 639955,
+                    "VentilationMethodID": 6,
+                    "FanPower": 1.190,
+                    "HeatExchanger": 82.000,
+                    "ExternalUninsulatedDucting": true,
+                    "AdjustedHeatExchangerEfficiency": 69.700,
+                    "AirPermeabilityResult": null,
+                    "SurveyID": 654195,
+                    "StructuralInfiltrationID": 5,
+                    "WoodenFloorID": 1,
+                    "Manufacturer": "Zehnder",
+                    "Model": "ComfoAir 550",
+                    "Wetrooms": "8",
+                    "ExhaustAirFlowRate": null
+                }
+            ],
+            "SurveyVentilationSpaceCoolings": []
+        },
+        "SurveyLighting": null,
+        "SurveyFuelData_Renewable": [
+            {
+                "Id": 204949,
+                "RenewableTypeID": 2,
+                "EnergyProducedOrSaved": "12 x 400w Panel PV Array  4.8kW",
+                "PartLtotalcontribution": 2571.260,
+                "ProducedDeliveredEnergy": 2571.260,
+                "ProducedPrimaryConversionFactor": 1.75,
+                "ProducedCo2EmissionFactor": 0.224,
+                "EnergyConsumed": null,
+                "ConsumedDeliveredEnergy": null,
+                "ConsumedPrimaryConversionFactor": null,
+                "ConsumedCo2EmissionFactor": null,
+                "RenewableEnergyPage": 0,
+                "SurveyID": 654195,
+                "EnerProdFuel": 28
+            }
+        ],
+        "SurveyRenewableTGDL2005": [],
+        "SurveyEvidenceChecklistComplete": false,
+        "SurveyCooling": {
+            "SurveyCoolingSystems": []
+        }
+    },
+    "Results": {
+        "TotalDwellingArea": 486.88,
+        "LivingRoomArea": 27.47,
+        "LivingRoom": 5.64,
+        "TotalElementArea": 879.15,
+        "TotalHeatLoss": 1571.219,
+        "AdjustedInfiltrationRate": 0.571,
+        "Mainspaceheatingsystem": 22384
+    }
+}
