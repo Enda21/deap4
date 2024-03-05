@@ -27,4 +27,6 @@ jobs:
     needs: build
     steps:
       - name: Run TestRunner main class
-        run: mvn exec:java -Dexec.mainClass="RunSurveys.TestRunner1"
+        run: |
+          cd /home/runner/work/deap4/deap4
+          mvn exec:java -Dexec.mainClass="RunSurveys.TestRunner1"
