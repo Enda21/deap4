@@ -6,9 +6,8 @@ on:
       - main
 
 jobs:
-  build:
+  runTests:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -21,11 +20,7 @@ jobs:
 
       - name: Build with Maven
         run: mvn clean -DskipTests verify
-
-  runTests:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
+        
       - name: Run TestRunner main class
         run: |
           cd /home/runner/work/deap4/deap4
