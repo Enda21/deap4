@@ -27,5 +27,4 @@ jobs:
     needs: build
     steps:
       - name: Run TestRunner main class
-        run: |
-          java -cp target/your-artifact-id-1.0-SNAPSHOT.jar RunSurveys.TestRunner1
+        run: mvn exec:java -Dexec.mainClass="RunSurveys.TestRunner1"
