@@ -31,7 +31,7 @@ import org.junit.runner.notification.Failure;
 public class TestRunner1 {
 
         public static void main(String[] args) {
-               String fixedPath = "deap4\\DataFile\\";
+              "DataFile" + File.separator;
 		String[] jsonFiles = { "10309532437.json" };
 		for (String jsonFile : jsonFiles) {
     			String filePath = fixedPath + jsonFile;
