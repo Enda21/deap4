@@ -41,7 +41,7 @@ public class TestRunner1 {
         }
 
         private static void runTests(String jsonFile) {
-                String jsonFilePath = "C:\\Users\\BrodyE\\SEAI\\QA Automation\\DataFile\\" + jsonFile;
+                String jsonFilePath = "\\DataFile\\" + jsonFile;
 
                 // Check if the file exists
                 if (!Files.exists(Paths.get(jsonFilePath))) {
