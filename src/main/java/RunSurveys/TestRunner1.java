@@ -31,7 +31,7 @@ import org.junit.runner.notification.Failure;
 public class TestRunner1 {
 
         public static void main(String[] args) {
-               String fixedPath = "\\DataFile\\";
+               String fixedPath = "deap4\\DataFile\\";
 		String[] jsonFiles = { "10309532437.json" };
 		for (String jsonFile : jsonFiles) {
     			String filePath = fixedPath + jsonFile;
@@ -41,8 +41,6 @@ public class TestRunner1 {
         }
 
         private static void runTests(String jsonFile) {
-                String jsonFilePath = "\\DataFile\\" + jsonFile;
-
                 // Check if the file exists
                 if (!Files.exists(Paths.get(jsonFilePath))) {
                         System.out.println("File does not exist: " + jsonFilePath);
