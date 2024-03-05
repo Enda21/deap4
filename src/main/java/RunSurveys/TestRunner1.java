@@ -42,14 +42,14 @@ public class TestRunner1 {
 
         private static void runTests(String jsonFile) {
                 // Check if the file exists
-                if (!Files.exists(Paths.get(jsonFilePath))) {
-                        System.out.println("File does not exist: " + jsonFilePath);
-                        return;
-                }
+        if (!Files.exists(Paths.get(jsonFile))) {
+                System.out.println("File does not exist: " + jsonFile);
+                return;
+        }
 
-                System.setProperty("surveyFile", jsonFilePath);
+        System.setProperty("surveyFile", jsonFile);
 
-                System.out.println("Absolute Path: !!!! " + jsonFilePath);
+        System.out.println("Absolute Path: !!!! " + jsonFile);
 
                 try {
                         Result result = JUnitCore.runClasses(TestRunner1.class);
